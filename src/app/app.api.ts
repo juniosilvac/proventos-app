@@ -1,0 +1,1 @@
+export const PROVENTOS_API = 'http://localhost:3000';

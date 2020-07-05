@@ -1,0 +1,32 @@
+<div class="table-responsive">
+<table class="table table-striped">
+  <thead>
+    <tr>     
+      <th class="text-center">Tipo de Ativo</th>
+      <th class="text-center">Data da Aprovação (I)</th>
+      <th class="text-center">Valor do Provento (R$)</th>
+      <th class="text-center">Proventos por unidade ou mil</th>
+      <th class="text-center">Tipo do Provento (II)</th>
+      <th class="text-center">Últ. Dia 'Com'</th>
+      <th class="text-center">Data do Últ. Preço 'Com' (III)</th>
+      <th class="text-center">Últ. Preço 'Com'</th>
+      <th class="text-center">Preço por unidade ou mil</th>
+      <th class="text-center">Provento/Preço(%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let provento of proventos">      
+      <td>{{provento.tipoAtivo}}</td>
+      <td>{{provento.aprovacao}}</td>
+      <td class="text-right">{{provento.valor | currency: 'BRL': true}}</td>
+      <td class="text-right">{{provento.proventoPorUnidade}}</td>
+      <td>{{provento.tipoProvento}}</td>
+      <td>{{provento.ultimoDia}}</td>
+      <td>{{provento.ultimoDiaPreco}}</td>
+      <td class="text-right">{{provento.ultimoPreco | currency: 'BRL': true}}</td>
+      <td class="text-right">{{provento.precoPorUnidade}}</td>
+      <td class="text-right">{{provento.preco | currency: 'BRL': true}}</td>
+    </tr>
+  </tbody>
+</table>
+</div>

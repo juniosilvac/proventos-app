@@ -1,0 +1,79 @@
+{
+  "proventos": [
+    {
+      "id": "74681194-03eb-4112-8a49-3e7703bdb4d3",
+      "aprovacao": "04/07/2020",
+      "preco": 0.201587,
+      "tipoAtivo": "ON",
+      "tipoProvento": "JRS CAP PROPRIO",
+      "valor": 0.657451,
+      "proventoPorUnidade": 1,     
+      "precoPorUnidade": 1,
+      "ultimoDia": "04/07/2020",
+      "ultimoDiaPreco": "04/07/2020",
+      "ultimoPreco": 0.698745
+     
+    },
+    {
+      "id": "74681194-03eb-4112-8a49-3e7703bdb4d3",
+      "aprovacao": "04/07/2020",
+      "preco": 0.201587,
+      "tipoAtivo": "ON",
+      "tipoProvento": "JRS CAP PROPRIO",
+      "valor": 0.657451,
+      "proventoPorUnidade": 1,     
+      "precoPorUnidade": 1,
+      "ultimoDia": "04/07/2020",
+      "ultimoDiaPreco": "04/07/2020",
+      "ultimoPreco": 0.698745
+     
+    },
+    {
+      "id": "74681194-03eb-4112-8a49-3e7703bdb4d3",
+      "aprovacao": "04/07/2020",
+      "preco": 0.201587,
+      "tipoAtivo": "ON",
+      "tipoProvento": "JRS CAP PROPRIO",
+      "valor": 0.657451,
+      "proventoPorUnidade": 1,     
+      "precoPorUnidade": 1,
+      "ultimoDia": "04/07/2020",
+      "ultimoDiaPreco": "04/07/2020",
+      "ultimoPreco": 0.698745
+     
+    },
+    {
+      "id": "74681194-03eb-4112-8a49-3e7703bdb4d3",
+      "aprovacao": "04/07/2020",
+      "preco": 0.201587,
+      "tipoAtivo": "ON",
+      "tipoProvento": "JRS CAP PROPRIO",
+      "valor": 0.657451,
+      "proventoPorUnidade": 1,     
+      "precoPorUnidade": 1,
+      "ultimoDia": "04/07/2020",
+      "ultimoDiaPreco": "04/07/2020",
+      "ultimoPreco": 0.698745
+     
+    }
+  ],
+  "tipoProventos": [
+    {
+      "id": 1,
+      "descricao": "DIVIDENDO"      
+    },
+    {
+      "id": 2,
+      "descricao": "JRS CAP PROPRIO"      
+    },
+    {
+      "id": 3,
+      "descricao": "BONIFICAÇÃO"      
+    },
+    {
+      "id": 4,
+      "descricao": "DIREITOS DE SUBSCRIÇÃO"      
+    }
+
+  ]
+}
